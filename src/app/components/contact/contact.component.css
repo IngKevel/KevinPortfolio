@@ -1,0 +1,44 @@
+.fullbody {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.titulo {
+    color: #444141;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 45%;
+}
+
+hr {
+    height: 0.1rem;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    background-image: linear-gradient(to right, transparent, #BF0606, transparent);
+}
+
+p {
+    color: #444141;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+
+.social {
+    width: 100px;
+}
+
+.mail {
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}

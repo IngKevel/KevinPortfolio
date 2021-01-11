@@ -1,0 +1,11 @@
+.footer {
+    background: #444141;
+    color: #F5F5F5;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+.footer p {
+    margin-left: 40%;
+}

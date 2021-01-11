@@ -1,0 +1,16 @@
+<div class="fullbody" id="portfolio">
+<h2>
+    <span class="titulo">PORTAFOLIO</span>
+</h2>
+<hr>
+<div class="body">
+    <div class="card" *ngFor="let proyect of proyects">
+        <img src={{proyect.image}}>
+        <div class="info">
+            <h3>{{proyect.title}}</h3>
+            <p>{{proyect.description}}</p>
+            <a href={{proyect.link}} target="_blank" class="buttom">Enlace</a>
+        </div>
+    </div>
+</div>
+</div>
