@@ -4,15 +4,15 @@
 
 .fullbody {
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
-.titulo {
+h2 {
     color: #444141;
     font-family: 'Source Code Pro', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 45%;
+    text-align: center;
 }
 
 hr {
@@ -114,4 +114,39 @@ hr {
 
 .card .info .buttom:hover {
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Middle screens */
+@media only screen and (max-width: 1000px) {
+    .card {
+        width: 25vw;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        width: 60vw;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+
+    .body {
+        display:grid;
+        justify-content: space-around;
+    }
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .fullbody {
+        margin-left: 0px;
+    }
+
+    .card {
+        width: 80vw;
+        height: 350px;
+        margin-bottom: 30px;
+    }
 }

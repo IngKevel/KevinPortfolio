@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: rgb(243, 243, 243);
 }

@@ -1,9 +1,9 @@
-.titulo {
+h2 {
     color: #F5F5F5;
     font-family: 'Source Code Pro', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 45%;
+    text-align: center;
 }
 
 hr {
@@ -52,4 +52,16 @@ hr {
 .card:hover .info {
     opacity: 1;
     transform: translateY(0px);
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .body {
+        margin-left: 0px;
+    }
+
+    .card {
+        width: 80px;
+        height: 60px;
+    }
 }

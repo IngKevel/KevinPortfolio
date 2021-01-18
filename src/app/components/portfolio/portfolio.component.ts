@@ -28,7 +28,7 @@ export class PortfolioComponent implements OnInit {
         'title' : 'Binario2Decimal',
         'description' : 'Binario2Decimal es una app que te ayuda a convertir números binarios a decimales, o viceversa, desarrollado en Android Studio, escrito en Java',
         'image' : '../../../assets/images/Proyectos/bin2dec.png',
-        'link' : 'https://play.google.com/store/apps/details?id=com.lacuevadelbot.binary2dec'
+        'link' : 'https://keveldev.com/Binario2Decimal/'
       }
     ]
   }
