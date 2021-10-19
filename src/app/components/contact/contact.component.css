@@ -31,16 +31,30 @@ p {
     width: 100px;
 }
 
+.social:hover {
+    transition: all 0.65s;
+    transform: rotateY(360deg);
+}
+
 h3 {
     font-family: 'Source Code Pro', sans-serif;
     font-size: 3vw;
     font-weight: bold;
 }
 
-.redes {
-    display: flex;
-    justify-content: space-around;
+.subtitle {
     margin-bottom: 50px;
+}
+
+.redes {
+    max-inline-size: 550px;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 50px;
+}
+
+.icons {
+    margin-left: 3em;
 }
 
 /* Small screens */
@@ -53,9 +67,31 @@ h3 {
         font-size: 4vw;
     }
 
+    .center{
+        width: 300px;
+    }
+
     p {
         font-size: 20px;
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    .redes {
+        margin-left: 4em;
+    }
+
+    .social {
+        width: 80px;
+    }
+
+    .icons {
+        margin-left: 1em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .redes {
+        margin-left: 2em;
     }
 }

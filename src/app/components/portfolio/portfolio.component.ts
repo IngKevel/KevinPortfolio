@@ -22,7 +22,7 @@ export class PortfolioComponent implements OnInit {
         'title' : 'La Cueva Del Bot',
         'description' : 'LaCuevaDelBot.com es una pagina web diseñada para la redaccion de post sobre la cultura geek, se diseño utilizando tecnologias como Wordpress y Inkscape',
         'image' : '../../../assets/images/Proyectos/lcdb.png',
-        'link' : 'https://lacuevadelbot.com'
+        'link' : 'https://keveldev.com'
       },
       {
         'title' : 'Binario2Decimal',
